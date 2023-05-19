@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Web Carros</title>
+</head>
+<style>.assuntos div{
+    font-size: 5vh;
+    height: 30vh;
+    justify-content: center;}</style>
+<body>
+    <header class="cabecalho">
+        <div class="marca">
+            <h1>Web Carros</h1>
+            <img src="Carro.svg" alt="Logo">
+        </div>
+        <nav class="menu-h">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="compra.html">Compra</a></li>
+            <li><a href="venda.html">Venda</a></li>
+            <li><a href="financiamento.html">Financiamento</a></li>
+            <li><a href="#">Contato</a></li>
+            <li><a href="#">Entrar</a></li>
+            <li>
+                <input type="text"class="search-txt"placeholder="Pesquisar">
+                <a href="#" class="search-but">
+                    <img src="Lupa.svg.svg" alt="Lupa">
+                </a>
+            </li>
+        </ul>
+        </nav>
+    </header>
+        <article class="quem-somos">
+            <Div>
+                <h2>Pensando em dar entrada em seu financiamento?</h2>
+                <h3>Conheça nossos planos de financiamento!</h3>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Libero pariatur velit similique assumenda nemo maiores, suscipit, veritatis amet voluptas nihil perferendis eos. Facilis, perspiciatis dolorum. Animi aspernatur veniam consequatur ipsum.</p>
+            </Div>
+        </article>
+        <article class="assuntos">
+        <div>
+            <div>
+                <h2>Bancos parceiros:</h2> 
+            </div>
+        </div>    
+        </article>
+    <section class="anuncio">
+
+        <div class="veiculo">
+            <h2>Bradesco</h2>
+            <p><img src="https://logodownload.org/wp-content/uploads/2018/09/bradesco-logo-novo-2018.png" alt="Celta"></p>
+
+            <button class="botao"><p>Conheça</p></button>
+        </div>
+        <div class="veiculo">
+            <h2>Itaú</h2>
+                <p><img src="https://seeklogo.com/images/I/Itau-logo-C9E851CC19-seeklogo.com.png"></p>
+
+            <button class="botao"><p>Conheça</p></button>
+        </div>
+        <div class="veiculo">
+            <h2>Sicoob</h2>
+                <p><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAVwAAACRCAMAAAC4yfDAAAABaFBMVEX///8APUR6t0MAoJPE0C4AMTkAnZAAOEAANTw7Ymf6/v5wh4sAKjN5tUMAOkGXpagAmIwAkoYAJzB2sUIALjcAin4Ag3gAfnS/yy6BlJcAdWvz9vZyq0EAb2YAYmFzrUG0vy+3wi/M1tdtpD/q7/BonT6osjBilDyvvL7U3d5LbHHf5ueMrj/I0yywujAiUFbAy81cizpwsi9beHyWnzKfqTGTxGpVgThejjuDvFCisbRifICQo6W0wcMQR05BZWp4kJMAY1iFjTOAhjOQmDLAzQng7tU9fkua081ssSdQcy0fkXZjvbRIdzvI6OXt9eYtiWaq0Iuu2tbB3KtFdCLD1MJ6m2ZMgSKfuY5bkyu/07J3plLa5tGTunVloi1GopkAGiZzsqufxsI8jIVUkZKayHSnqXqssnS6wXPHznO8zGTl6qF5lDns8MTP2V32+OG01ZmUm06GjxTc443m67LM0ZvL1UrU3XMSahfDAAAL/UlEQVR4nO2c/Z/TxhGHLROdZGsjc2KBOCI9MAJsuSAHJySx5ZcAd03zwoW8tU1SIGlSmjQE2tDw71fvmn21784XaD/z/JIQ7Yrdr2ZnZmfXaTQQBEEQBEEQBEEQBEEQBEEQBEEQBEEQBEEQBEEQBEEQBEEQBEEQBEEQBPnfo70ez3uYLy57N5rN5sspp06d2tk5d+7ixUuXLl15+/XX33rrDyfW473nPYkXlL0/NuXivp2I+/4H64l78sPnPY0Xk2ZOpW4qbqLuldx0P1rTdE/eed7zeBHZv55Jm6ubi1uY7pXMdD9eT9wtdAwScnGhujul6V5JTff9LRT38LzTBI7hFOcYEnHXi2noFqTscaa7c5iYtoUBTc6NJme7bExby3S3guc9ixcU0etyMe2DE1srOIkeV8XdpiKmFTuJj1Zpu3UC92gq2td5v8DFtI9XGe4n7Av93mQ5DRfh2Jn0mAdBEPj6oQz6sTNOujrxSNrA73WcsJUw7faHqybmj/LGi2l3Jm3c9oNBbzTrTzoJ/f6oF2zeSj7Vx7TPPl/hF04wA+6HlFDTtizLtk3P6IBn0QNqGpEzk0/Bn4S2l/e0kp5WLLSYhSZJnruumzSg3jzW6TtLxgEaRzEXF/ph5FLPIzTBTEj+QTy71e3JX3do3hEcA4xpXzQ+2dZpuw3TsIlFLAPgkqg21lbyKJkqsfviGAZTQrmeLfYj9Ofsqw3X9KYqeSeG2Nhh5HWo6xoCru3NJ4fVUQqfjhUxLVf3T/uNxv2TGkAaNoyoMGAzrB63ivm6Hq9uMPVsYaLmFLQYRESihe2J9p3Qm4vjSN5HoWyO+BcWo6PzjVrvDXVMu/Ln5PmdbbW227U9jDhryfGqoZbiJvbBGuWESmfq1XY58WSvTiCh6MZjVWNvXDdSimsYlvDxj8K+JqZlMnyoVHe7TsN6nsRcEoOpjKsS1yBMvJp68knWltZVtEhfH/HqOprGtavRiJt8BXk8PRx3VTHtL19mz/1thbrbJ6vRBqZUW8N2RHFNEOfaC6qSorta2+T9EbsMHKJpbLbWEtd1N5g3lOmYENO+Khq8d3pbyuk6DRsrRrtK3IWpVKKw+YlOW8arN1KfoG1My9FAcdMExWJMg8Is56jw6VgR0+59XTaQa7t9v3rDAE7KTbIf07RdKJFCXIez26SrmaZQ6Qxz1zdk5LKS/Mlj45UHAlVP0pjxwN5MFDcKx+OFAT21G21QXEk6ltruX6vnd86clnCmTsOWwACp4cSTTnc6p8R2a/8qE3fGGppJ5tNuHC/HSVezCGgRnDRZ9AfBYNJi1j6t3e6caRzOhknjCH4/12pz4pbeZwDXENlkuWSPj2mp7d7brxvcl2n7Tf18XhsTqSwpGDnWg2rmEnF9G9qgadf7An+0zP1jH+jo2uWX6kPjNZdlrw7Q0TXKxoxfKbQUxU08VP1lvMHR9GT5vinEtHtPwPPh2TMitcX4hB99QbsOvBJxu9Dheo4sjICv5tp1cjaA5ljaWRt4Tteoja8HDd3ORi0TFzQjG81198WYtsM0+EZQ9+y39VPgGJXjEsX1oUKedGs0A7owGRJ0KFXoA+9jbG8C3pJneDJxg7qVt7J0cSCe8DHt3pfMc/8szxnwFIhrqiKtKC5cxUS+7QzrpWpPVU/K+BPVhlu7Cu7vNqzM3cjEHdbi2put4bSbnOne4Bp8+yqr7WuwGgZDuqlIwUVxQayyQ2kfYEwGYa0JrvXc0OAgKBuRRvA96SOZuHHlpLjveHQ+ZWPa9T2+wdlXGf4Gn7ELfCwNB4K4UAzFOpzV77V4+cGnyZc68Ar2mGsMXDdNszGJuCB0bjaepTDpWPOu8Lz37muAd9m/vwXDvu21+uK6EsQFYli8GAUgHaW836gNrdipgH0MnXGNQaqYqVm/2O6m97aG/QUIZ93GptmDMa0pcTrf/Q7wHftswm4GLGo6fGATxHU0YhQA6yS8bQO/4GZ+FFinx+ep/BLgtr8U7jXIpp1CCkjHml/9/eHDh/9I+SHjWcKPvwdw9RI2Y80swovY6pIgLlBOEKMASCDEmKD2Kq7RYFxT9mcGEKzceYMV13XZZSetYx4VkI6dunXz5u033njzzcuXr107f+HCKykvJVzN2f0n37kvbupdEsHYJohrVHMSxcgJgF7CjrRtgOTAZ1y42xIag4hmN3T1XGUF/og8qWLaT7du3r6daFuKm6ubyZsjdpaVoyxvWtsbL65fu0HVXh7oZS2EpxHrBoCbkLhw+CXaanHdlsJBHZ1S2x3GcM8L2u4+knSWFlLNqFrwvLiBztJyQDlISBYEcUG6VZfiKmC64GtPIuzNHvRUlOnYrcJwL8sN9+rP0t7SIwB7XnrnQ4gLjXFz4po6cbPjO/0p9WHJ07GLqwz3sbz3oCU5jbDL9awTdw23oBU3NUbwJYQ0t9GAhZ7GimK5LRxvbIQ8HUsNF2p7gdX26i/K/jP+jDahPJLS+FzDkm83QYy3JAENWFub9SGCgwYBLYueQFyLUuqxh8+m6OA3wfdrRLOruheMQq48XZklLy6M9ooNmlZ/3vLhn+f8m4ZcUgw2EUs/CILeJIRmsdEzyookHXuZdwqc4e4+1b8i6ETsSXlxAKzLc4XtV4FOf94ht0G6KhS7wSYic8iS7e8gEktBG+bJ9Z/00eylX1e/pBdC51toqduhqSLaGOjPGxPY/uY1R1D6InzxCGx/sw8pK9z4oBy8+epCSvsct39YKw0TGIGBFjUmXW0BXG9g6NSaCLlrxGvZ5YsNgDmnm0xc+LlUS+mIfH6zNFx5NJOnYQIDoZ6lrYqJ8Sp/C2jCLXX4KD9Fg3VFysZ78Cg/RZOKO1Kdp2yOf2mjmSoNE6jrZEXs1tZzDVNMTVOAxXHWCGpgxdeDpzycOOB4LF9HUnFhMrdcc5oH5Ot/a1JcZRomZIa1uCq3wJbSqFRdsFJZ1wGPeYjkvJxxmvCUM3+LVNwJ8OLL9cQ6MA810UyZhi2jPqMvcAvF8CVnaMyFEDOSBJGAOfwFB5Sga1X2gZ5CdUBZ+B+puHBXckx74Ma+xiko07CWTc1xfSV5BvOi3LAkp78xUwV2vUW/VGQ4Wi6zf3GgimZZVenDy1P18VsIC4lWdbQOb0gWg5GJO1Wtko3yn8tsNFsjDWunMtmUmK2xs3RCC94rKIKL7FLInN0uW5QYrXC8iExCaW5iAVNsI1FnNBh1IvgfQSxkbue4pDVJGsfMpRCryPkEcf1ZJFsMx8DB07Bq5bl2AnPzqjztk4nbEypprlte3Cq2ZBNGXcskhJjsDSVgZNxSyBqzd5+KtQXc87w1HocRZe5I0WMpmOc8uiZPw54pe3SU9+mq+UjvinXUF+fKfqH61SmE0aGlK8iAyxHMSYTFWsPxGm6j8aPccPeVHcaSamMxn3Ly8luOS6W6tPCZ7UgnGJdk+HPlQBLIsmynrYodo8dNeXzhvKTSKJzt1BhirbGYz4orpI1Yfmka3I/0I82y4A8Tg7laNm9ZNdOJK/6uYMP8cEFwCrKznZKhwv5crzYshbiNkS3Xrr6Z0Q4VN5pdyWGi31LcprbghSmNuDbd5MVyKQdJw5QXlE0T2IBK3IbvSH5vwtYNO0TSwiWRdPnGstcljWEarRTX9sLj/7Xt01d4w9VVw4ZLm/D39i1qduG+Qilu0t0xKX8275oPQO9gyuUIrk2Uv2oajj12MK5wzu9IVoubpCK2cyzlMJ4DFhXao2VESHqhPME0qWeP2S1bI3rgFTyQLObZ1PDSnweW3WnUZacZxJFHkufZjwCp5051i3eYNK5+MUg9Q7ihsqReMtrs930ZlBDPWMSj3+into92103DKvxeP15Op1OnG88GwjD9GvkUgtGkm3Zfpt1lp1jBKF6OF4uxE6/+dWra2MkbS3+d2g56o/6kE3dT4kl/JP0bj41n66ZhyMF5vLtmGoYcgl9AFqZJw5BDUUu73tkOcgCe7pbRbM2zHeQA/LpeGoYchse56Wqu2CCH51mm7i7+X2yOhZ93d3evolM4Jh4/xUQBQRAEQRAEQRAEQRAEQRAEQRAEQRAEQRAEQRAEQRAEQRAEQRAEQRDk/5f/AhmCtghUQ85LAAAAAElFTkSuQmCC" alt="Sicoob"></p>
+                
+            <button class="botao"><p>Conheça</p></button>
+        </div>
+    </section>
+       <footer class="rodape">
+        <div>
+            <h3>Serviços</h3>
+           <ul>
+            <li><a href="compra.html">Compra</a></li>
+            <li><a href="venda.html">Venda</a></li>
+            <li><a href="financiamento.html">Financiamento</a></li>
+           </ul> 
+        </div>
+        <div>
+            <h3>Redes</h3>
+            <ul>
+            <li><a href="https://pt-br.facebook.com/">Facebook</a></li>
+            <li><a href="https://www.instagram.com/">Instagram</a></li>
+            <li><a href="https://web.whatsapp.com/">WhatsApp</a></li>
+            </ul>
+        </div>
+        <div>
+            <h3>Contato</h3>
+            <ul>
+            <li><a href="https://mail.google.com/mail/u/0/?hl=pt-BR">E-mail</a></li>
+            <li><a href="#">Telefone</a></li>
+            <li><a href="#">Vendedores</a></li>
+            </ul>
+        </div>
+    </footer>
+</body>
+</html>
